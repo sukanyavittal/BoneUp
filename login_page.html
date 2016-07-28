@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>www.liovincis.com/modlogin</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets\css\styles.css">
+</head>
+
+<body>
+<section class="container">
+	<div class="row">
+		<p>
+			<img src="assets\images\liovinci-logo-icon.png"  class="liovinci_icon" alt="liovinci_image" >
+		</p>
+		<p>
+			<img src="assets\images\logo-home.png" class="liovinci_text" alt="liovinci_name">
+		</p>
+		<p class="mod_login">Welcome Mods.</p>
+		<div>
+			<form name="login_form" onsubmit="return validateSpecific();" method="post">
+			<p><input type="text" name="email" class="credentials" placeholder="email"></p>
+			<p><input type="password"  name="password" class="credentials" placeholder="password"></p>
+			<p><input type="submit"  value="login"  class="submit"></p>
+			</form>
+			<script src="assets\js\login_validation.js"></script>
+		</div>
+	</div>
+</section>
+</body>
+
+</html>
