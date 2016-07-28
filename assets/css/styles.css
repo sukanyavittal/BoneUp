@@ -1,0 +1,52 @@
+body
+{
+	
+	background: linear-gradient(90deg, #33A1DE, #236B8E );
+}
+.row{
+	
+	text-align:center;
+	
+}
+.liovinci_icon
+{
+	margin-top:70px;
+	width: 80px;
+	height: 80px;
+}
+.liovinci_text
+{
+	
+	width: 128px;
+	height: 33px;
+}
+.credentials
+{
+	padding: 20px;
+	margin-top:12px;
+	border-radius: 25px;
+	height: 50px;
+	width: 320px;
+	border: 2px solid #FFFFE6;
+    font-size: 14px;
+	font-family: calibri (Body);
+	font-weight: bold;
+	}
+	.submit
+	{
+		margin-top:130px;
+	border-radius: 25px;
+	height: 45px;
+	width: 160px;
+	border: 1px solid #FFFFE6;
+	color: white;
+	background-color: #5D92B1;
+	font-size: 12px;
+	}
+	.mod_login
+	{
+	font-size: 14px; 
+	color: white;
+	margin-top:60px; 
+	}
+
